@@ -1,0 +1,30 @@
+/* Header Stylesheet
+*
+* BlogApp 
+* Author: Facundo Muller
+*
+*/
+
+/* General */
+.appHeader {
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+/* menu.js */
+.appMenu {
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 5rem;
+    cursor: pointer;
+}
+.toggleMenu path {
+    fill: #fff;
+}
+/* menu.js */

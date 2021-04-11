@@ -1,15 +1,13 @@
 //import logo from './logo.svg';
 import './App.css';
-import Hola from './home/hola';
+import Header from './interface/components/header/Header';
+import Home from './interface/components/home/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Hola firstname="Facundo" secondname="Müller"></Hola>
-        <h2>BlogApp</h2>
-        <p>La nueva forma de hacer blogs</p>
-      </header>
+      <Header />
+      <Home />
     </div>
   );
 }
